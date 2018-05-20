@@ -31,7 +31,7 @@
 - abs_sobel_thresh() : Use cv2.Sobel in the picture to extract only the pixels with the rate of change between the boundary                                                                   values in the x or y direction
 - mag_thresh() : After calculating the magnitude with sobelx and sobely, find the pixel whose magnitude is between the boundary values
 - dir_threshold() : Considering the direction of the lane, we find a pixel with that direction.
-- hls_select() : S channel is the color channel that distinguishes the lane most accurately even when the lane is covered by the shadow. Therefore, the lane is searched using the s channel.
+- hls_select() : S channel is the color channel that distinguishes the lane most accurately even when the lane is covered by the shadow. Therefore, the lane is searched using the s channel. It can be done by using cv2.COLOR_RGB2HLS to convert RGB color space into HLS color space
 
 ### I show the results of each steps.
 
@@ -42,6 +42,18 @@
 #### gradient_y of the image   
 ![gradient_y](https://user-images.githubusercontent.com/35591154/40278827-5624f10c-5c73-11e8-9570-d23f88843b93.png)
 #### magnitude of the image
+![magnitude](https://user-images.githubusercontent.com/35591154/40278941-8199824c-5c75-11e8-883d-7c70386ccaa6.png)
+#### direction of the image
+![direction](https://user-images.githubusercontent.com/35591154/40278946-9a8a146a-5c75-11e8-9073-9fe8cc3becdd.png)
+#### gradient_x combined with magnitude (which are more efficient and accurate results in lane detection)
+#### Apply this to test_images
+![gradx_mag_color_combined1](https://user-images.githubusercontent.com/35591154/40278953-af56954e-5c75-11e8-97f3-7a5fa9489143.png)
+![gradx_mag_color_combined2](https://user-images.githubusercontent.com/35591154/40278954-b04eb3c8-5c75-11e8-9ccd-99eefaf28ccf.png)
+![gradx_mag_color_combined3](https://user-images.githubusercontent.com/35591154/40278957-bd15e590-5c75-11e8-8927-371a60a84003.png)
+![gradx_mag_color_combined4](https://user-images.githubusercontent.com/35591154/40278958-c0462892-5c75-11e8-9cf4-9ca84029c590.png)
+![gradx_mag_color_combined5](https://user-images.githubusercontent.com/35591154/40278959-c18c5d8e-5c75-11e8-8696-3953ddee31e4.png)
+![gradx_mag_color_combined6](https://user-images.githubusercontent.com/35591154/40278961-c6afb9e6-5c75-11e8-937f-aef259ad276d.png)
+
 
 
 
