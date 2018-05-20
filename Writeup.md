@@ -86,8 +86,11 @@
 ----
 ## Calculate curvature & vehicle position
 ![screenshot from 2018-05-20 16-40-42](https://user-images.githubusercontent.com/35591154/40279243-fdf720ac-5c79-11e8-8ca0-bbebde943096.png)
-#### Calculate the curvature by applying the value for the position of the pixel in the picture to above formula 
-#### Then compute the position of the vehicle by comparing the median of the pixels of the left and right lanes with the median of the entire x-axis, and write it on the photograph.
+#### Calculate the curvature by applying the value for the position of the pixel in the picture to above formula. Then compute the position of the vehicle by comparing the median of the pixels of the left and right lanes with the median of the entire x-axis, and write it on the photograph.
+![screenshot from 2018-05-20 22-15-07](https://user-images.githubusercontent.com/35591154/40279363-4918b170-5c7c-11e8-9bd0-b359757e793a.png)
+
+## Apply to video
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/35591154/40279411-2ba31db4-5c7d-11e8-9668-15e0e97b013a.gif)
 
 
 
