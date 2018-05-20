@@ -3,6 +3,7 @@
 ----
 ### Process
 - Camera Calibration
+The camera accepts light through the lens. The light is refracted by the lens and the picture is distorted. Therefore, the distorted picture should be converted to the original picture without refraction.Use openCV to resolve this.
 
 - Detect lane lines 
 
