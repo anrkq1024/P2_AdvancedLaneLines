@@ -12,12 +12,13 @@ There are obstacles to distinguishing lanes in general situations. First, the co
 
 - Perspective transform
 
-In the photograph, the lane gradually becomes smaller and gathered by the perspective. You have to transform perspective to look at the lane efficiently. Converts the area in which the lane is located, as seen from the top down, called the bird's view. The area is defined by a square shape consisting of four points. Later in this section we find the lane and fill the area with color. When you convert it back to its original point of view, the area corresponding to the lane is displayed on the picture.
-
-
-to extract warped area called bird's view
+In the photograph, the lane gradually becomes smaller and gathered by the perspective. So we have to transform perspective to look at the lane efficiently. Converts the area in which the lane is located, as seen from the top down, called the bird's view. The area is defined by a square shape consisting of four points. Later in this section we find the lane and fill the area with color. When you convert it back to its original point of view, the area corresponding to the lane is displayed on the picture.
 
 - Calculate lane lines
+
+In the lane picture obtained through the perspective transform, use the histogram to find the starting point of the lane in the x-axis. And displays the area around the line with a rectangle along the lane.
+
+
 
 - Calculate curvature & vehicle position
 
