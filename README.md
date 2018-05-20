@@ -6,19 +6,19 @@
 
 The camera accepts light through the lens. The light is refracted by the lens and the picture is distorted. Therefore, the distorted picture should be converted to the original picture without refraction. Use openCV to resolve this.
 
-- Detect lane lines 
+- #### Detect lane lines 
 
 There are obstacles to distinguishing lanes in general situations. First, the color of the lane can be white or yellow. And because of the shadow, the lane can become dark. Even in this situation, the lane must be distinguished from the photograph. To do this, apply the canny edge to the photo, then set the boundary value for the size and orientation of the pixel. That is, it finds the pixel that is the lane. And in the shadows we use the S channel that best finds the lane and finds the pixel that is the line and matches the previous results.
 
-- Perspective transform
+- #### Perspective transform
 
 In the photograph, the lane gradually becomes smaller and gathered by the perspective. So we have to transform perspective to look at the lane efficiently. Converts the area in which the lane is located, as seen from the top down, called the bird's view. The area is defined by a square shape consisting of four points. Later in this section we find the lane and fill the area with color. When you convert it back to its original point of view, the area corresponding to the lane is displayed on the picture.
 
-- Calculate lane lines
+- #### Calculate lane lines
 
 In the lane picture obtained through the perspective transform, use the histogram to find the starting point of the lane in the x-axis. And displays the area around the line with a rectangle along the lane.
 
-- Calculate curvature & vehicle position
+- #### Calculate curvature & vehicle position
 
 Calculate the curvature expressed as a function of y. 
 
@@ -31,7 +31,7 @@ Calculate the curvature expressed as a function of y.
 This allows you to see how much of the current left and right lanes are bent. Then, the middle point of the lane is compared with the midpoint of the entire photograph. Thus the current vehicle position is calculated.
 
 
-- Apply to video
+- #### Apply to video
 
 
 ----
