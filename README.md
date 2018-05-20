@@ -3,6 +3,9 @@
 # Advanced Lane Lines Detecting
 
 #### This project's goal is to recognize not only straight lanes but also curved lanes then calculate the curvature of the left and right lanes. And assume that the camera is attached to the center of the car, I calculate how far away the car is from the center of the lane to which direction.
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/35591154/40279411-2ba31db4-5c7d-11e8-9668-15e0e97b013a.gif)
+
 ----
 ## Process
 - ### Camera Calibration
