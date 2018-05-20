@@ -4,7 +4,7 @@
 ### Process
 - Camera Calibration
 
-The camera accepts light through the lens. The light is refracted by the lens and the picture is distorted. Therefore, the distorted picture should be converted to the original picture without refraction.Use openCV to resolve this.
+The camera accepts light through the lens. The light is refracted by the lens and the picture is distorted. Therefore, the distorted picture should be converted to the original picture without refraction. Use openCV to resolve this.
 
 - Detect lane lines 
 
@@ -18,9 +18,18 @@ In the photograph, the lane gradually becomes smaller and gathered by the perspe
 
 In the lane picture obtained through the perspective transform, use the histogram to find the starting point of the lane in the x-axis. And displays the area around the line with a rectangle along the lane.
 
-
-
 - Calculate curvature & vehicle position
+
+Calculate the curvature expressed as a function of y. 
+
+![screenshot from 2018-05-20 16-40-42](https://user-images.githubusercontent.com/35591154/40276770-915bd2e8-5c4d-11e8-9cee-20eedc7defb4.png)
+
+
+![screenshot from 2018-05-20 16-40-33](https://user-images.githubusercontent.com/35591154/40276792-0300a1ee-5c4e-11e8-8f68-f46a5bd6738b.png)
+
+
+This allows you to see how much of the current left and right lanes are bent. Then, the middle point of the lane is compared with the midpoint of the entire photograph. Thus the current vehicle position is calculated.
+
 
 - Apply to video
 
