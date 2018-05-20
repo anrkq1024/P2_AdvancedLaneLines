@@ -38,7 +38,7 @@
 
 #### gradient x image          
 ![gradient_x](https://user-images.githubusercontent.com/35591154/40278828-5aa34652-5c73-11e8-931a-45d168429019.png)
-#### gradient y image  
+#### gradient y image   
 ![gradient_y](https://user-images.githubusercontent.com/35591154/40278827-5624f10c-5c73-11e8-9570-d23f88843b93.png)
 
 
