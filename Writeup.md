@@ -2,7 +2,7 @@
 # Udacity SDCND Project_2 
 # Advanced Lane Lines Detecting
 ----
-### Camera Calibration
+## Camera Calibration
 - cv2.findChessboardCorners() : Find the chessboard corners
 - cv2.calibrateCamera() : Calculates distortion coefficients and restoration matrix
 - cv2.undistort() : Undistort the distorted image
@@ -27,7 +27,7 @@
 ![calibrated_test5](https://user-images.githubusercontent.com/35591154/40277802-0ce3b3d8-5c60-11e8-95fe-c4d76295a7ef.png)
 
 ----
-### Detect lane lines
+## Detect lane lines
 - abs_sobel_thresh() : Use cv2.Sobel in the picture to extract only the pixels with the rate of change between the boundary                                                                   values in the x or y direction
 - mag_thresh() : After calculating the magnitude with sobelx and sobely, find the pixel whose magnitude is between the boundary values
 - dir_threshold() : Considering the direction of the lane, we find a pixel with that direction.
