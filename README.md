@@ -33,6 +33,12 @@ This allows you to see how much of the current left and right lanes are bent. Th
 
 - #### Apply to video
 
+Apply the above procedure to the camera. In other words, the lane, the curvature, and the current position of the vehicle are displayed every moment.
+
+
+![screenshot from 2018-05-20 16-48-15](https://user-images.githubusercontent.com/35591154/40276819-a8758068-5c4e-11e8-842f-5cd2c23fe2a8.png)
+
+
 
 ----
 ### File 
