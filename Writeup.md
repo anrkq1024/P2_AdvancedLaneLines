@@ -92,5 +92,6 @@
 ## Apply to video
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/35591154/40279411-2ba31db4-5c7d-11e8-9668-15e0e97b013a.gif)
 
+## Discussion
 
 
