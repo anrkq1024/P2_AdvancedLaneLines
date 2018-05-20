@@ -74,11 +74,13 @@
 ![warped5](https://user-images.githubusercontent.com/35591154/40279110-ec6677f4-5c77-11e8-8bb5-dc48639650c9.png)
 ![warped6](https://user-images.githubusercontent.com/35591154/40279111-f3672288-5c77-11e8-94a3-e5bd01371378.png)
 ----
- ## Calculate lane lines
- #### Using warped test_image2
- #### Histogram
- ![histogram](https://user-images.githubusercontent.com/35591154/40279160-9b5604f0-5c78-11e8-9801-1cf454d2935e.png)
+## Calculate lane lines
+#### Using warped test_image2
+#### Histogram
+![histogram](https://user-images.githubusercontent.com/35591154/40279160-9b5604f0-5c78-11e8-9801-1cf454d2935e.png)
+#### Sliding_windows & detected_lines
+![sliding_windows](https://user-images.githubusercontent.com/35591154/40279181-d73e7344-5c78-11e8-91dc-aa520e85039b.png)
+![detected_lines](https://user-images.githubusercontent.com/35591154/40279183-d8c346c2-5c78-11e8-80a7-84920c846f4d.png)
 
- 
 
 
