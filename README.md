@@ -1,7 +1,7 @@
 # AdvancedLaneLines
 #### This project's goal is to recognize not only straight lanes but also curved lanes then calculate the curvature of the left and right lanes. And assume that the camera is attached to the center of the car, I calculate how far away the car is from the center of the lane to which direction.
 ----
-### Process
+## Process
 - #### Camera Calibration
 
 The camera accepts light through the lens. The light is refracted by the lens and the picture is distorted. Therefore, the distorted picture should be converted to the original picture without refraction. Use openCV to resolve this.
@@ -39,8 +39,23 @@ Apply the above procedure to the camera. In other words, the lane, the curvature
 ![screenshot from 2018-05-20 16-48-15](https://user-images.githubusercontent.com/35591154/40276819-a8758068-5c4e-11e8-842f-5cd2c23fe2a8.png)
 
 ----
-### File 
+## Configuration 
 - #### images_for_calibration
 
 Contains photographs to calculate the distortion of the camera lens and convert the image to an undistorted image.
+
+- #### output_images
+
+- calibrated_images
+
+Contains a photograph of a calibrated test image.
+
+- processed_images
+
+There are output images for each stage in the whole process
+
+
+
+
+
 
