@@ -6,8 +6,15 @@
 
 - Detect lane lines 
 
-- Perspective transform to extract warped area called bird's view
+- Perspective transform
+to extract warped area called bird's view
 
-- Calculate lane lines equation
+- Calculate lane lines
 
--
+- Calculate curvature & vehicle position
+
+- Apply to video
+
+
+----
+### File 
