@@ -46,13 +46,25 @@ Contains photographs to calculate the distortion of the camera lens and convert 
 
 - #### output_images
 
-- calibrated_images
+  - calibrated_images
 
-Contains a photograph of a calibrated test image.
+  Contains a photograph of a calibrated test image.
 
-- processed_images
+  - processed_images
 
-There are output images for each stage in the whole process
+  There are output images for each stage in the whole process
+
+- #### output_video
+
+There is an output video where all processes are applied
+
+- #### test_images 
+
+There are test pictures provided to do the project.
+
+- #### *Writeup.md*
+
+The entire process is explained and described in detail.
 
 
 
