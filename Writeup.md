@@ -93,5 +93,6 @@
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/35591154/40279411-2ba31db4-5c7d-11e8-9668-15e0e97b013a.gif)
 
 ## Discussion
-
+What I think the most important part of this project is what to do when the lane is not properly detected in a moment's picture. At first, I did not consider this and applied the code to the video, so when the lane was not detected correctly, the lane that was drawn turned upside down or crushed.
+In order to improve this, the left and right lines were objectified, and when the lane detection was not successful, the x-axis value as the reference of the lane was maintained as the existing value. If the lane is detected well, the reference value of the new lane is changed to the detected value. This makes it impossible for the lane to appear to collapse or turn over suddenly when the lane is not detected.
 
