@@ -33,13 +33,15 @@
 - dir_threshold() : Considering the direction of the lane, we find a pixel with that direction.
 - hls_select() : S channel is the color channel that distinguishes the lane most accurately even when the lane is covered by the shadow. Therefore, the lane is searched using the s channel.
 
+### I show the results of each steps.
+
 #### original image                          
 ![screenshot from 2018-05-20 21-15-12](https://user-images.githubusercontent.com/35591154/40278861-e732c822-5c73-11e8-999b-9cf32286c8dd.png)
-#### gradient x image          
+#### gradient_x of the image          
 ![gradient_x](https://user-images.githubusercontent.com/35591154/40278828-5aa34652-5c73-11e8-931a-45d168429019.png)
-#### gradient y image   
+#### gradient_y of the image   
 ![gradient_y](https://user-images.githubusercontent.com/35591154/40278827-5624f10c-5c73-11e8-9570-d23f88843b93.png)
-
+#### magnitude of the image
 
 
 
