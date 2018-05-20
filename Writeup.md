@@ -18,8 +18,9 @@
 ### I apply this method to test images
 
 #### distorted image
-![test2](https://user-images.githubusercontent.com/35591154/40277822-53d1f296-5c60-11e8-99bc-7e9d366cd873.jpg)
-![test5](https://user-images.githubusercontent.com/35591154/40277823-5528ac20-5c60-11e8-9fc6-fb1812d2c90f.jpg)
+![screenshot from 2018-05-20 18-57-53](https://user-images.githubusercontent.com/35591154/40277844-034c649a-5c61-11e8-9ab4-23d0faf6c53c.png)
+![screenshot from 2018-05-20 18-58-23](https://user-images.githubusercontent.com/35591154/40277845-079a4936-5c61-11e8-9b14-6016e7af5c8a.png)
+
 
 #### calibrated image
 ![calibrated_test2](https://user-images.githubusercontent.com/35591154/40277801-0a4c57f6-5c60-11e8-9981-f8fe6007063a.png)
