@@ -28,7 +28,7 @@
 
 ----
 ### Detect lane lines
-- abs_sobel_thresh() : Use cv2.Sobel in the picture to extract only the pixels with the rate of change between the boundary values in the x or y direction.
-- mag_thresh() : 
-- dir_threshold() : 
+- abs_sobel_thresh() : Use cv2.Sobel in the picture to extract only the pixels with the rate of change between the boundary                                                                   values in the x or y direction
+- mag_thresh() : After calculating the magnitude with sobelx and sobely, find the pixel whose magnitude is between the boundary values
+- dir_threshold() : Considering the direction of the lane, we find a pixel with that direction.
 - hls_select() : 
