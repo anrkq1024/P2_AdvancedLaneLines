@@ -45,7 +45,10 @@
 ![magnitude](https://user-images.githubusercontent.com/35591154/40278941-8199824c-5c75-11e8-883d-7c70386ccaa6.png)
 #### direction of the image
 ![direction](https://user-images.githubusercontent.com/35591154/40278946-9a8a146a-5c75-11e8-9073-9fe8cc3becdd.png)
-#### gradient_x combined with magnitude (which are more efficient and accurate results in lane detection)
+#### S_channel of the image
+![s_channel](https://user-images.githubusercontent.com/35591154/40279020-9a605714-5c76-11e8-8891-65db255f89ad.png)
+#### gradient_x and magnitude of the image combined with the S_channel 
+#### (which are more efficient and accurate results in lane detection)
 #### Apply this to test_images
 ![gradx_mag_color_combined1](https://user-images.githubusercontent.com/35591154/40278953-af56954e-5c75-11e8-97f3-7a5fa9489143.png)
 ![gradx_mag_color_combined2](https://user-images.githubusercontent.com/35591154/40278954-b04eb3c8-5c75-11e8-9ccd-99eefaf28ccf.png)
