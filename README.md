@@ -38,10 +38,9 @@ Apply the above procedure to the camera. In other words, the lane, the curvature
 
 ![screenshot from 2018-05-20 16-48-15](https://user-images.githubusercontent.com/35591154/40276819-a8758068-5c4e-11e8-842f-5cd2c23fe2a8.png)
 
-
-
 ----
-
 ### File 
+- #### images_for_calibration
 
+Contains photographs to calculate the distortion of the camera lens and convert the image to an undistorted image.
 
